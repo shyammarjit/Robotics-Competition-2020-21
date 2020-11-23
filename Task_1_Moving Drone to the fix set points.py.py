@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 
-# Team Leader-Shyam Marjit
-# Team_ID-2241
-# IIITG-8927860176
+# Team Leader- Shyam Marjit
+# Team_ID - 2241
+# Task-2
+# IIITG - 8927860176
+# E-Mail - sujaykumarmarjit@gmail.com
 '''
 This python file runs a ROS-node of name attitude_control which controls the roll pitch and yaw angles of the eDrone.
 This node publishes and subsribes the following topics:
@@ -173,9 +175,9 @@ class Edrone():
         #---------------------------------------step-1: Converting quaternion to euler angles------------------------------------------------------------------
 
         (self.drone_orientation_euler[1], self.drone_orientation_euler[0], self.drone_orientation_euler[2]) = tf.transformations.euler_from_quaternion([self.drone_orientation_quaternion[0], self.drone_orientation_quaternion[1], self.drone_orientation_quaternion[2], self.drone_orientation_quaternion[3]])
-        self.drone_orientation_euler[0]=math.degrees(self.drone_orientation_euler[0])	# for roll axis
-        self.drone_orientation_euler[1]=math.degrees(self.drone_orientation_euler[1])	# for pitch axis
-        self.drone_orientation_euler[2]=math.degrees(self.drone_orientation_euler[2])	# for yaw axis
+        self.drone_orientation_euler[0] = math.degrees(self.drone_orientation_euler[0])	   # for roll axis
+        self.drone_orientation_euler[1] = math.degrees(self.drone_orientation_euler[1])	   # for pitch axis
+        self.drone_orientation_euler[2] = math.degrees(self.drone_orientation_euler[2])	   # for yaw axis
 
       	#---------------------------------------Step-2: Converting the range from 1000 to 2000 in the range of -10 degree to 10 degree for roll, pitch and yaw axis--------------
 
