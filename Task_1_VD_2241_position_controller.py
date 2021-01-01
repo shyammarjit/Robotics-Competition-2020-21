@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 
-# Team Leader- Shyam Marjit
-# Team_Id -2241
-# IIITG-8927860176
+# Team Leader - Shyam Marjit
+# Team_Id - 2241
+# IIITG - 8927860176
+# E-mail - sujaykumarmarjit@gmail.com, shyam.marjit@iiitg.ac.in
+# 
 
 '''
 This python file runs a ROS-node of name position_control which gives us the required output of the eDrone_task-1.
